@@ -1,5 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 body{
     background: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color:#562EFF;
+    color:white;
+}
+nav{
+    width: 920px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-log,.nav-menu,.nav-menu-text{
+    display: flex;
+    align-items: center;
+}
+.nav-log img{
+    width: 40px;
+    height: 40px;
+}
+.nav-menu-text li{
+    list-style: none;
+    margin-right: 20px;
+}
+.nav-menu-text li a{
+    text-decoration: none;
+    color:white;
+}
+.nav-title{
+    margin-left: 15px;
 }
 main{
     display: flex;
@@ -104,13 +138,27 @@ hr{
 
 @media only screen and (max-width:640px){
    body{
-       padding: 10px;
+       margin: 0;
    }
+   nav{
+     
+        width: 100%;
+        flex-direction:column;
+        padding:10px;
+    }
+    .nav-menu{
+        justify-content: space-between;
+    }
     .container{
         width:100%;
+       
+    }
+    .top-players,.top-blogs,.lates-course{
+        padding:10px;
     }
     .players{
         grid-template-columns:repeat(1,1fr);
+       
         
     }
     /*-------------under-------------*/
