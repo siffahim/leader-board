@@ -190,6 +190,7 @@ footer{
     .courses{
        width: 100%;
        margin-top: 30px;
+       padding:0px;
     }
     .course-info{
         flex-direction: column;
