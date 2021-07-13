@@ -159,7 +159,11 @@ footer{
     }
     .container{
         width:100%;
-       
+        padding: 0px;
+    }
+    .course-banner img{
+        width: 210px;
+        height: 104px;
     }
     .top-players,.top-blogs,.lates-course{
         padding:10px;
